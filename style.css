@@ -1,0 +1,298 @@
+/*  
+Theme Name: Cybery Cool
+Theme URI: http://www.pureweber.com
+Description: 本主题是<a href=" http://www.pureweber.com">PureWeber</a>主题项目中的一部分
+Version: 1.0
+Author: Saltedfish
+Author URI: http://saltedfish.info
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: top;
+	background: #ffffff;
+	color: #000000;
+}
+h1{
+	font-family: Georgia, Sans-serif;
+	font-size: 24px;
+	padding: 0 0 10px 0;
+}
+a:link, a:visited{
+	text-decoration: none;
+	color: #336699;
+}
+a:hover{
+	text-decoration: none;
+	color: #ffffff;
+}
+p{
+	padding: 10px 0 0 0;
+}
+#wrapper{
+	margin: 0 auto 0 auto;
+	width: 1200px;
+	text-align: left;
+}
+#header{
+	border: none;
+	background-image: url(images/headerbackground.png);
+	float: left;
+	width: 1200px;
+	height: 154px;
+	margin: 0 0 10px 0;
+}
+#container{
+	float: left;
+	width: 700px;
+	margin: 0 0 0 100px;
+}
+.post{
+	padding: 10px 0 10px 0;
+}
+.post h2{
+	font-family: Georgia, Sans-serif;
+	font-size: 18px;
+}
+.entry{
+	line-height: 18px;
+}
+p.postmetadata{
+	border-top: 1px solid #ccc;
+	margin: 10px 0 0 0;
+}
+.navigation{
+	padding: 10px 0 0 0;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+}
+.sidebar{
+	float: left;
+	width: 250px;
+	background: #eeeeee;
+	margin: 0 0 0 45px;
+	display: inline;
+}
+.sidebar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 10px 0 10px;
+}
+.sidebar ul li{
+	padding: 10px 0 10px 0;
+}
+.sidebar ul li h2{
+	font-family: Georgia, Sans-serif;
+	font-size: 14px;
+}
+.sidebar ul ul li{
+	padding: 0;
+	line-height: 24px;
+}
+table#wp-calendar{
+	width: 100%;
+}
+#footer{
+	text-align: right;
+	clear: both;
+	float: left;
+	width: 1200px;
+	padding: 10px 0 0 0;
+}
+#footer p{
+	margin: 1px 100px 0 100px;
+	line-height: 18px;
+}
+#links{
+	background-image:url(images/footer.png);
+	width: 1000px;
+	height: 200px;
+	text-align: left;
+	padding: 20px 100px 20px 100px;
+}
+#links ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px 10px 0 10px;
+}
+#links a:link{
+	font-size: large;
+	text-decoration: none;
+	margin: 1px 0 1px 0;
+	color: #ffffff;
+}
+#links a:visited{
+	font-size: large;
+	text-decoration: none;
+	margin: 1px 0 1px 0;
+	color: #ffffff;
+}
+#links a:hover{
+	text-decoration: none;
+	margin: 1px 0 1px 0;
+	color: #336699;
+}
+img.logo{
+	float:left;
+	margin: 30px 100px 0 100px;
+}
+img.logomenu{
+	float:right;
+	margin-right: 100px;
+}
+#featureleft{
+	float: left;
+	width: 730px;
+	height: 300px;
+	margin: 15px 10px 0 100px;
+}
+#featureright{
+	float: left;
+	width: 250px;
+	height: 300px;
+	margin: 15px 10px 0 10px;
+}
+img.featureleft{
+	width: 710px;
+	height: 280px;
+	z-index: 1;
+}
+img.featureright{
+	width: 230px;
+	height: 280px;
+	z-index: 1;
+}
+img.feature{
+	float: left;
+	left: 500px;
+	bottom: 45px;
+	position: relative;
+	z-index: 10;
+}
+p.texts{
+	float: left;
+	width: 200px;
+	left: 15px;
+	bottom: 250px;
+	position: relative;
+	z-index: 10;
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 20px;
+	text-align: left;
+}
+img.featurebutmore{
+	float: left;
+	left: 110px;
+	bottom: 45px;
+	position: relative;
+	z-index: 10;
+}
+img.featurebut_1{
+	float: left;
+	left: 380px;
+	bottom: 40px;
+	position: relative;
+	z-index: 50;
+}
+img.featurebut_2{
+	float: left;
+	left: 380px;
+	bottom: 40px;
+	position: relative;
+	z-index: 50;
+}
+img.featurebut_3{
+	float: left;
+	left: 380px;
+	bottom: 40px;
+	position: relative;
+	z-index: 50;
+}
+img.featurebut_4{
+	float: left;
+	left: 380px;
+	bottom: 40px;
+	position: relative;
+	z-index: 50;
+}
+img.featurebut_5{
+	float: left;
+	left: 380px;
+	bottom: 40px;
+	position: relative;
+	z-index: 50;
+}
+img.cut{
+	margin:10px 0 10px 0;
+}
+#logomenu{
+	float: right;
+	width: 500px;
+	height: 48px;
+}
+img.logomenuright{
+	float: right;
+}
+#lmenu li{
+	padding: 12px 3px;
+	float: right;
+	font-size: large;
+	display: inline;
+        list-style-type: none;	
+	height: 48px;
+	width: 60px;
+	background-image:url(images/logomenu.png);
+	background-repeat:repeat-x;
+}
+img.logomenuleft{
+	float: right;
+}
+#title{
+	float:left;
+	margin: 20px 0 0 0;
+}
+.comments-template{
+	margin: 10px 0 0;
+	border-top: 1px solid #ccc;
+	padding: 10px 0 0;
+}
+.comments-template ol{
+	margin: 0;
+	padding: 0 0 15px;
+	list-style: none;
+}
+.comments-template ol li{
+	margin: 10px 0 0;
+	line-height: 18px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #ccc;
+}
+.comments-template h2, .comments-template h3{
+	font-family: Georgia, Sans-serif;
+	font-size: 16px;
+}
+.commentmetadata{
+	font-size: 12px;
+}
+.comments-template p.nocomments{
+	padding: 0;
+}
+.comments-template textarea{
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+}
+#demo {
+	margin: auto; 
+	overflow: hidden; 
+	width:1200px;  
+	text-align: center;
+}
